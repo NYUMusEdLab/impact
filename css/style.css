@@ -234,7 +234,7 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: white;
+	background: #7edd7a;
 }
 #skills h2 {
 	color: black;
@@ -452,7 +452,7 @@ ol.type li a:hover {
 /* Resume Section */
 #resume {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #dbdbdb;
 }
 #resume .resume-last {
 	margin-left: 60px;
@@ -477,9 +477,13 @@ ol.type li a:hover {
 	margin-left: -1.5px;
 	background-color: #eee;
 }
-#accomodation {
+#accommodation {
 	padding: 100px 0;
 	background: white;
+	margin-left: 10px;
+	margin-top: 50px;
+	font-size: 1.3em;
+	text-align: justify;
 }
 .timeline>li {
 	position: relative;
@@ -559,7 +563,7 @@ ol.type li a:hover {
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #629ca7;
+	color: #66af62;
 	font-size: 20px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
@@ -593,6 +597,9 @@ ol.type li a:hover {
 #contact .text-danger {
 	color: #E87E04;
 	text-align: left;
+}
+#contact .col-md-12{
+	margin-bottom: 40px;
 }
 label {
 	font-size: 12px;
@@ -641,6 +648,7 @@ color: #2c3e50;
 #contact .social ul li {
 	display: inline-block;
 	margin: 0 20px;
+	margin-bottom: 50px;
 }
 #contact .social i.fa {
 	font-size: 30px;
@@ -768,7 +776,7 @@ header .intro-text {
 	margin-left: -75px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 30px;
+	margin-top: 20px;
 	font-size: 18px;
 	line-height: 26px;
 }
@@ -790,7 +798,7 @@ header .intro-text {
 	margin-left: -75px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 40px;
+	margin-top: 20px;
 	font-weight: 400;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
