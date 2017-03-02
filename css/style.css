@@ -30,6 +30,14 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
+h6 {line-height: 20px;
+	margin-top: 30px;
+	color: #72309e;
+	font-weight: 400;
+	margin-bottom: 30px;
+	font-size: 34px;
+
+}
 p.intro {
 	font-size: 16px;
 	margin: 12px 0 0;
@@ -183,6 +191,7 @@ hr {
 .section-title.center {
 	padding: 25px 0 45px 0;
 }
+
 /* About Section */
 #about {
 	padding: 100px 0;
@@ -204,6 +213,21 @@ hr {
 #about p {
 	margin-top: 20px;
 	margin-bottom: 30px;
+}
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 /*open call section */
 
