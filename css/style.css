@@ -147,11 +147,14 @@ hr {
 .btn-default {
 	color: #131313;
 	background-color: transparent;
-	border-color: #131313;
+	border-color: black;
+	border-width: 5px;
 	padding: 10px 20px;
 	margin: 0;
-	font-size: 16px;
+	font-size: 54px;
+	font-weight: 700;
 	border-radius: 0;
+	box-shadow: 2px 2px 5px #6e8879;
 }
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
