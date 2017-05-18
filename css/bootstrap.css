@@ -3041,6 +3041,7 @@ fieldset[disabled] .btn {
   color: #333;
   background-color: #fff;
   border-color: #ccc;
+  font-size: 54px;
 }
 .btn-default:hover,
 .btn-default:focus,
